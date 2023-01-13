@@ -1,3 +1,101 @@
+## 5.1.4
+
+- Support for lottie-ios version 3.4.0
+- Update tvOS deployment target to 11.0
+
+## 5.1.3
+
+- Fix Android compilation issue
+
+## 5.1.2
+
+- Fix compilation issues on Android
+
+## 5.1.1
+
+- Remove deprecated-react-native-prop-types import
+
+## 5.1.0
+
+- Upgrade lottie-android dependency to 5.1.1
+- Fix ViewPropTypes imports
+- Support for remote animations
+- Support for dynamic text
+- Support changing lottie props for ongoing animations
+- Regular chore tasks
+
+## 5.0.1
+
+- Fix SimpleColorFilter casting error
+
+## 5.0.0
+
+- Upgraded to RN 0.66.1
+- Support for PlatformColor
+
+## 4.1.3
+
+- Added pod support for tvOS
+
+## 4.1.2
+
+- iOS target moved to 11.0 to align with React Native 64
+
+## 4.1.1
+
+- Updating Documentation
+
+## 4.1.0
+
+- Upgrading Native lottie-android to 4.0.0
+- Migrated to maven_publish
+- Migrated to gradle 7
+
+## 4.0.3
+
+- Updated `lottie-ios` dependency to 3.2.3
+
+## 4.0.2
+
+- Minor fixes
+
+## 4.0.1
+
+- Update react-native-safe-modules dependency
+
+## 4.0.0
+
+- Fix react-native 0.64 compatibility
+- Windows support [C#]
+- macOS Support (based on react-native-windows)
+- Moved lottie-ios to peerDependencies
+- Fix Android playback when startFrame > endFrame
+
+## 3.4.1
+
+- Updated the development app to React Native 0.62.2
+- Updated `lottie-ios` dependency to 3.1.8
+- Updated `lottie-android` dependency to 3.4.0
+
+## 3.4.0 (May 20, 2020)
+
+- Add auto embed fastlane
+- Updated Android Building environment
+- Add testID prop to AnimatedLottieView typescript definition
+- Added Pause & Resume commands. Also added `onLayout` prop.
+- Fix iOS speed not changing dynamically
+- Improved documentation
+
+## 3.3.2 (Nov 15, 2019)
+
+- Removed support for `Reanimated`
+
+## 3.3.1 (Nov 12, 2019)
+
+- Support for `Reanimated`
+- Added `colorFilters` prop for setting individually layers color
+- Documentation update
+
 ## 3.2.1 (Sep 30, 2019)
 
 - Fix for strange characters in some Java files
